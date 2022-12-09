@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.okayjava.html</groupId>
 	<artifactId>Sandapp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-html</name>
 	<packaging>war</packaging>
 	<description>Myilmurugan-Sand app</description>

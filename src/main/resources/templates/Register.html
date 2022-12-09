@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Here...!</title>
+<link rel="stylesheet" href="" th:href="@{/css/mystyle.css}" />
+</head>
+<body class="registerw" >
+<div >
+<form class="loginform">
+<h1>Book Your Sand</h1>
+<h1>Welcome To Login!</h1>
+    <input type="text" placeholder="UserName"><br/>
+    <br/>
+    
+    <input type="Password" placeholder="Password">
+    <button>Login</button>
+
+    <p class="message">Not Register? <a href="#">Register</a></p>
+
+</form>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$('.message a').click(function(){
+$('form').animate({height:"toggle",opacity:"toggle"},"slow");});
+
+</script>
+
+</html>

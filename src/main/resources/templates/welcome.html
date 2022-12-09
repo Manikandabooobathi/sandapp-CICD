@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>welcome...!</title>
+<link rel="stylesheet" href="" th:href="@{/css/mystyle.css}" />
+</head>
+<body class="welcome">
+
+<h1> You have Registered successfully....!!.</h1>
+
+
+<span class="title">Please Book Your Sand Quilckely</span>
+
+
+<h2 th:text="${firstname}">first name</h2>
+<h2 th:text="${lastname}">last name</h2>
+
+<form action="back">
+<button  href="#" class="btn" type="submit">Back</button>
+</form>
+</body>
+</html>

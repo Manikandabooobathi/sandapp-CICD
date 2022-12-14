@@ -1,14 +1,14 @@
-package com.okayjava.test;
+package com.okayjava.html;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MayilappApplicationTests {
+class SpringbootHtmlApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.out.println("tets started>>>>>>>>>>>>>>>>>");
+		System.out.println("tets started--->>>>>>>>>>>>>>>>>");
 	}
 
 }
